@@ -50,7 +50,7 @@ export class RawImage {
     data: Uint8Array<ArrayBufferLike> | Uint8ClampedArray<ArrayBufferLike>;
     width: number;
     height: number;
-    channels: 3 | 1 | 2 | 4;
+    channels: 2 | 3 | 1 | 4;
     /**
      * Returns the size of the image (width, height).
      * @returns {[number, number]} The size of the image (width, height).

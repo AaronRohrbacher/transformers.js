@@ -147,6 +147,7 @@ if (ORT_SYMBOL in globalThis) {
         supportedDevices.push('webgpu');
     }
 
+    supportedDevices.push('webgl');
     supportedDevices.push('wasm');
     defaultDevices = ['wasm'];
 }
