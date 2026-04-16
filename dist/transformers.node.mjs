@@ -31610,6 +31610,7 @@ if (ORT_SYMBOL in globalThis) {
   if (apis.IS_WEBGPU_AVAILABLE) {
     supportedDevices.push("webgpu");
   }
+  supportedDevices.push("webgl");
   supportedDevices.push("wasm");
   defaultDevices = ["wasm"];
 }
@@ -32805,6 +32806,8 @@ var DEVICE_TYPES = Object.freeze({
   // WebAssembly
   webgpu: "webgpu",
   // WebGPU
+  webgl: "webgl",
+  // WebGL
   cuda: "cuda",
   // CUDA
   dml: "dml",

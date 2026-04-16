@@ -22,6 +22,7 @@ export const DEVICE_TYPES: Readonly<{
     cpu: "cpu";
     wasm: "wasm";
     webgpu: "webgpu";
+    webgl: "webgl";
     cuda: "cuda";
     dml: "dml";
     coreml: "coreml";

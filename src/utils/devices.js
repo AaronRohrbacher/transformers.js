@@ -9,6 +9,7 @@ export const DEVICE_TYPES = Object.freeze({
     cpu: 'cpu', // CPU
     wasm: 'wasm', // WebAssembly
     webgpu: 'webgpu', // WebGPU
+    webgl: 'webgl', // WebGL
     cuda: 'cuda', // CUDA
     dml: 'dml', // DirectML
     coreml: 'coreml', // CoreML
